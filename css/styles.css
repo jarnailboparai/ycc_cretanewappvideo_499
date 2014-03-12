@@ -73,11 +73,13 @@ div.gallery-item .play_video_icon:hover,div.gallery-item .play_video_icon:active
     white-space: nowrap;
 }
 */
-.video_gallery_new{
-	padding:10px 10px !important;
-}
+
 .video_wrap{
 	padding:8px;
+}
+.video_gallery_new .ui-listview > li p{
+	font-weight:600;
+	color:#828180;
 }
 @media (max-width: 330px){
 	div.gallery-item {
